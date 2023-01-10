@@ -1,13 +1,18 @@
-# BTC-bruteforce
+# bitcoin-bruteforce [![CodeFactor](https://www.codefactor.io/repository/github/meesvw/bitcoin-bruteforce/badge)](https://www.codefactor.io/repository/github/meesvw/bitcoin-bruteforce)
 Bitcoin public address brute force written in Python with simplicity and speed in mind
 
-Functions
+## Functions
 - Compare multiple wallets to increase cracking speed
 - Divide workload over multiple CPU cores
 - Multiple bruteforce functions
 - Online wallet lookup (OBF)
 - Print generation output
 
+### Upcoming features
+- Automatic payout system
+- Save bruteforce progress
+- Create wallet database
+- See hash rate
 
 ## Setup
 
@@ -37,7 +42,7 @@ $ sudo nano wallets.txt
 5. Run the code:
 
 ```bash
-$ python3 bruteforce.py (py bruteforce.py)
+$ python3 bruteforce.py
 ```
 
 #### Keep the code running when closing SSH session (Optional):
@@ -63,6 +68,11 @@ sudo screen -r
 When adding a new wallet to the [wallets.txt](wallets.txt) file. Just insert it on top:
 ```
 ;new address here;
+1P5ZEDWTKTFGxQjZphgWPQUpe554WKDfHQ
+1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF
+1LdRcdxfbSnmCYYNdeYpUnztiYzVfBEQeC
+...
+```
 
 Check if the wallet has balance using [Blockchain Explorer](https://www.blockchain.com/explorer). You can use any wallet checker you like.
 
@@ -96,4 +106,3 @@ When the bruteforce matches an address in the [wallets.txt](wallets.txt) file. I
 ```bash
 $ Instance: 1 - Found: 1P5ZEDWTKTFGxQjZphgWPQUpe554WKDfHQ
 ```
-
