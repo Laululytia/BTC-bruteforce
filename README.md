@@ -63,8 +63,6 @@ When adding a new wallet to the [wallets.txt](wallets.txt) file. Just insert it 
 ```
 ;new address here;
 1P5ZEDWTKTFGxQjZphgWPQUpe554WKDfHQ
-1FeexV6bAHb8ybZjqQMjJrcCrHGW9sb6uF
-1LdRcdxfbSnmCYYNdeYpUnztiYzVfBEQeC
 ...
 ```
 
